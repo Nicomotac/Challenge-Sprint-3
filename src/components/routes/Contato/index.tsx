@@ -27,7 +27,7 @@ const handleSubmit = (e:React.FormEvent<HTMLFormElement>) => {
 }
 
 return(
-    <div className="max-w 2xl m-auto my-7">
+    <div className="min-h-screen max-w 2xl m-auto my-7">
         <h1 className="text-blue-900 text-4xl text-center font-bold mb-8"> Contate a equipe</h1>
 
     <form className="border-2 border-gray-400 p-4 rounded-md" onSubmit={handleSubmit}>
