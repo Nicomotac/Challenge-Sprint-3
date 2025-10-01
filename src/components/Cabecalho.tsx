@@ -1,21 +1,34 @@
 import { Link } from "react-router-dom";
-import "./Cabecalho.css"
 
-export default function Cabecalho(){
-    return(
-        <>
-            <header className="bg-500 rounded-2xl">
-                    Home
-            </header>
-            <nav>
-                <Link to={"/"}>Home</Link>
-                <Link to={"/Integrantes"}>Integrantes</Link>
-                <Link to={"/Contato"}>Contato</Link>
-                <Link to={"/FAQ"}>Perguntas Frequentes</Link>
-                <Link to={"/Chatbot"}>ChatBot</Link>
-                <Link to={"/Solucao"}>Nossa Solução</Link>
+export default function Cabecalho() {
+  return (
+    <header className="bg-blue-900 text-white">
+      <div className="px-6 py-4 flex items-center justify-center">
+        <h1 className="text-2xl font-bold">Hospital das Clínicas</h1>
+      </div>
 
-            </nav>
-        </>
-    )
+      <nav className="bg-emerald-500 px-6 py-3">
+        <ul className="flex flex-col md:flex-row gap-4 justify-center">
+          <li>
+            <Link className="hover:text-gray-300" to={"/"}>Home</Link>
+          </li>
+          <li>
+            <Link className="hover:text-gray-300" to={"/Integrantes"}>Integrantes</Link>
+          </li>
+          <li>
+            <Link className="hover:text-gray-300" to={"/Contato"}>Contato</Link>
+          </li>
+          <li>
+            <Link className="hover:text-gray-300" to={"/FAQ"}>FAQ</Link>
+          </li>
+          <li>
+            <Link className="hover:text-gray-300" to={"/Chatbot"}>ChatBot</Link>
+          </li>
+          <li>
+            <Link className="hover:text-gray-300" to={"/Solucao"}>Nossa Solução</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  )
 }
