@@ -1,5 +1,5 @@
 import { useState } from "react"
-import hospitalImg from '../../../assets/img/hospital.jpg';
+import hospitalImg from "../../../assets/img/hospital.jpg";
 
 export default function Home(){
     return(
@@ -20,7 +20,16 @@ export default function Home(){
             Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
           </p>
         </div>
-        </div>
+        <div className="flex items-center justify-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.27293598153!2d-46.686987154553485!3d-23.567218133447447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b00d3aa487%3A0xfe715b43e354f823!2sHospital%20das%20Cl%C3%ADnicas%20FMUSP!5e0!3m2!1spt-BR!2sbr!4v1747503765351!5m2!1spt-BR!2sbr"
+          className="w-full max-w-4xl h-[450px] rounded-4xl"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Mapa - Hospital das Clínicas"/>
+          </div>
+      </div>
 
 
     )

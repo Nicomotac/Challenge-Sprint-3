@@ -1,3 +1,7 @@
+import imgCaio from "../../../assets/img/fotocaio.jpeg"
+import imgEnzo from "../../../assets/img/fotoenzo.jpg"
+import imgNico from "../../../assets/img/fotonico.jpg"
+
 export default function Integrantes() {
   return (
     <div className="p-6 min-h-screen">
@@ -8,7 +12,7 @@ export default function Integrantes() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         
         <div className="border-4 border-blue-800 rounded-md p-4 flex flex-col items-center bg-white">
-          <img src="/placeholder-caio.jpg" alt="foto caio" className="w-32 h-32 object-cover rounded-md mb-4 border-2 border-gray-500"
+          <img src={imgCaio} alt="foto caio" className="w-32 h-32 object-cover rounded-md mb-4 border-2 border-gray-500"
           />
           <h3 className="text-lg font-bold text-black">Caio Kenzo Tayra</h3>
           <p className="text-sm text-gray-600">RM: 562979 1</p>
@@ -16,7 +20,7 @@ export default function Integrantes() {
         </div>
 
         <div className="border-4 border-blue-800 rounded-md p-4 flex flex-col items-center bg-white">
-          <img src="/integrantes-enzo.jpg" alt="foto enzo" className="w-32 h-32 object-cover rounded-md mb-4 border-2 border-gray-500"
+          <img src={imgEnzo} alt="foto enzo" className="w-32 h-32 object-cover rounded-md mb-4 border-2 border-gray-500"
           />
           <h3 className="text-lg font-bold text-gray-800">Enzo Vieira Bernardini</h3>
           <p className="text-sm text-gray-600">RM: 563000</p>
@@ -24,7 +28,7 @@ export default function Integrantes() {
         </div>
 
         <div className="border-4 border-blue-800 rounded-md p-4 flex flex-col items-center bg-white">
-          <img src="/placeholder-nicolas.jpg" alt="foto nicolas" className="w-32 h-32 object-cover rounded-md mb-4 border-2 border-gray-500"
+          <img src={imgNico} alt="foto nicolas" className="w-32 h-32 object-cover rounded-md mb-4 border-2 border-gray-500"
           />
           <h3 className="text-lg font-bold text-gray-800">Nicolas Mota Cândido</h3>
           <p className="text-sm text-gray-600">RM: 561857</p>
