@@ -4,7 +4,7 @@ Projeto acadêmico focado em inclusão digital na saúde para o Hospital das Cl�
 
 Tecnologias usadas: React/Typescript/Vite/Vs Code/Tailwind
 
-Nosso projeto é uma aplicação web que facilita o acesso de pacientes (especialmente idosos e pessoas com deficiência) a informações e serviços digitais do HC. O front-end prioriza simplicidade, acessibilidade e fluxos guiados.
+ é uma aplicação web que facilita o acesso de pacientes (especialmente idosos e pessoas com deficiência) a informações e serviços digitais do HC. O front-end prioriza simplicidade, acessibilidade e fluxos guiados.
 
 Módulos principais
 
@@ -16,4 +16,4 @@ Chatbot: assistente guiado para orientação digital (inclusão, agendamentos, d
 
 Contato: canais de suporte e formulário acessível.
 
-Integrantes: equipe do projeto (créditos e funções)
+Integrantes: Nícolas Mota 561857, Caio Tayra 562979, Enzo Vieira 563000
